@@ -1,0 +1,349 @@
+body {
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Amazon Ember', sans-serif;
+    font-family: 'Amazon Ember Cd RC', sans-serif;
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-family: 'Amazon Ember Duospace', sans-serif;
+    font-family: 'Amazon Ember Mono', sans-serif;
+    font-family: 'Amazon Ember V2', sans-serif;
+    background-color: rgb(219, 219, 219);
+    
+
+}
+
+a {
+
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+#blue-bar-top {
+
+    background-color: #131921;
+    height: 70px;
+    
+
+}
+
+#blue-bar-top img {
+
+    height: 90%;
+    padding-left: 2em;
+
+}
+
+#menu-bar {
+
+    background-color: #222F3E;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#menu-bar ion-icon {
+
+    padding-left: 0.8em;
+    font-size: 2em;
+    color: white;
+    padding-right: 0.6;
+    padding-top: 0.1em;
+
+}
+
+.menu-clickable {
+
+    justify-content: space-between;
+    padding: 0.7em;
+    font-size: 1.2em;
+    color: white;
+
+}
+
+#orange-bar {
+
+    display: flex;
+    background-color: rgb(255, 111, 0);
+    width: 95%;
+    height: 40px;
+    margin: auto; /* con margin auto centra il div */
+    margin-top: 2em;
+    text-decoration: none; /* non funziona */
+    cursor: pointer;
+
+}
+
+#orange-bar a {
+
+    color: white;
+}   
+
+.orange-bar-text {
+
+    display: flex;
+    color: white;
+    font-size: 1.1em;
+    margin: auto;
+
+} 
+
+#green-bar {
+
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+    cursor: pointer;
+
+}
+
+.content-green-bar img {
+
+    width: 95%;
+    height: 100%;
+
+}
+
+.content-green-bar h1 {
+
+    position: absolute;
+    top: 31%;
+    left: 42%;  
+    color: white;
+}
+
+.content-green-bar p {
+
+    position: absolute;
+    top: 39%;
+    left: 49%;  
+    color: white;
+
+}
+
+.container {
+
+    background-color: white;
+    margin: auto;
+    width: 95%;
+    height: 400px;
+    
+}
+
+.top-left {
+
+    display: flex;
+    font-size: 0.8em;
+    padding-left: 1.5em;
+
+}
+
+.top-left h1 {
+
+    padding-right: 1em;
+
+}
+
+.top-left h2 {
+
+    padding-top: 0.3em;
+    color: rgb(0, 153, 255);
+
+}
+
+.prodotti {
+
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    padding-top: 1em;
+
+}
+
+.prodotti img {
+
+    width: 300px;
+    border-radius: 20px;
+    height: 75%;
+    box-shadow: 10px 10px 40px grey
+
+}
+
+.block-products {
+
+    margin-top: 3em;
+    margin-left: 3em;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card {
+
+    background-color: white;
+    width: 330px;
+    height: 510px;
+
+}
+
+.card h2 {
+
+    padding-left: 1.5em;
+
+}
+
+.four-products {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.immagine img {
+
+    width: 130px;
+    height: 100px;
+    margin-top: 2em;
+    cursor: pointer;
+    padding-left: 1em;
+    margin-right: 15px;
+    object-fit: cover;
+    
+}
+
+.caption {
+
+    padding-left: em;
+
+}
+
+.caption2 {
+
+    padding-left: 1em;
+
+}
+
+.caption3 {
+
+    padding-left: 1em;
+
+}
+
+.caption4 {
+
+    padding-left: 1em;
+
+}
+
+.see-more {
+
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+
+}
+
+.see-more2 {
+
+    padding-left: 1em;
+    padding-top: 1.5em;
+
+}
+
+.see-more3 {
+
+    padding-left: 1em;
+    padding-top: 1.5em;
+
+}
+
+.see-more4 {
+
+    padding-left: 1em;
+    padding-top: 1.5em;
+
+}
+
+.visore {
+
+    margin-top: 2em;
+    padding-left: 3em;
+
+}
+
+.visore img {
+
+    width: 97.5%;
+
+}
+
+.caption {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.caption1 {
+
+    padding-right: 0.7em;
+    
+}
+
+.caption2 a {
+
+    color: rgb(0, 153, 255);
+
+}
+
+.cuffie {
+
+    margin-top: 2em;
+    padding-left: 3em;
+
+}
+
+.cuffie img {
+
+    width: 97.5%;
+
+}
+
+.final-belt p {
+
+    text-align: center;
+    padding-top: 1em;
+    color: white;
+}
+
+.final-sub-belt {
+
+    background-color:hsl(207, 55%, 8%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+
+    
+}
+
+.final-sub-belt img {
+
+    width: 200px;
+    height: 80px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
+.final-belt {
+
+    background-color: hsl(207, 46%, 22%);
+    height: 44px;
+    width: 100%;
+     
+}
