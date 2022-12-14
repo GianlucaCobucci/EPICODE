@@ -1,0 +1,129 @@
+.container {
+
+    margin-left: 4rem;
+    margin-top: 4rem;
+    
+}
+
+
+.container div {
+
+    width: 70px;
+    height: 60px;
+    border: 1px solid black;
+    display: inline-block
+
+}
+
+div:nth-child(even) {
+
+    border-style: solid;
+    border-color: red;
+    
+}
+
+.container div:nth-child(odd) span:nth-child(even) {
+
+    color: green;
+
+    /* 
+    ho colorato le lettere B e D (span pari) dentro i <div> dispari del container
+    */
+
+}
+
+.container div:nth-child(2) span:last-of-type {
+
+    color: blue;
+
+    /* 
+    oppure .container div:nth-child(2) span:nth-child(4) { color: blue; } 
+    - 
+    ho colorato l'ultima lettera del secondo figlio del <div> nel container
+    */
+
+}
+
+
+.container div:nth-child(6) :not(span:last-of-type) {
+
+    color: yellow;
+
+    /* 
+    tutte le lettere del <div> numero 6 nel container sono gialle 
+    tranne l'ultima dello stesso <div>
+    */
+
+}
+
+div {
+
+    position: relative;    
+
+}
+
+div span:nth-child(1) {
+
+    position: absolute;
+    left: 27px;
+    top: 60px;
+
+    /* 
+    il primo <span> di ogni <div> deve avere posizione absolute quindi può spostarsi.
+    Poi lo sposto da sinistra e da sopra per metterlo sotto la linea di bottom
+    */
+
+}
+
+div span:nth-child(2) {
+
+    position: absolute;
+    left: 27px;
+    bottom: 60px;
+
+    /* 
+    il secondo <span> (lettera B) di ogni <div> deve avere posizione absolute quindi può spostarsi.
+    Poi lo sposto da sinistra e da sotto per metterlo sopra la linea di top
+    */
+
+}
+
+.container div:last-child span:nth-child(4) {
+
+    position: absolute;
+    left: 75px;
+    top: 20px;
+
+    /* 
+    il quarto <span> (lettera D) dell'ultimo <div> nel container deve avere posizione absolute 
+    quindi può spostarsi.
+    Poi lo sposto da sinistra e da sopra per metterlo a dx della linea 
+    */
+
+}
+
+.container div:first-child span:nth-child(4) {
+
+    position: absolute;
+    top: 20px;
+    left: -20px;
+
+    /* 
+    il quarto <span> (lettera D) di ogni <div> nel container deve avere posizione absolute 
+    quindi può spostarsi.
+    Poi lo sposto da sinistra e da sopra per metterlo a dx della linea 
+    */
+
+}
+
+.container {
+
+    font-size: 0;
+
+}
+
+.container div {
+
+    font-size: 1rem;
+
+}
