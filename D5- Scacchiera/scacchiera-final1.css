@@ -1,0 +1,96 @@
+body {
+
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10em;
+
+}
+
+.title {
+
+    text-align: center;
+    margin-top: 5em;
+
+}
+
+.title h1 {
+
+    margin-bottom: 2em;
+
+}
+
+.container div {
+
+    width: 70px;
+    height: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 1rem;
+
+}
+
+.container {
+
+    text-align: center;
+    font-size: 0;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    margin: 0;
+    position: relative;
+
+}
+
+span {
+
+    position: absolute;
+
+}
+
+.brown {
+
+    background-color: burlywood;
+}
+
+.grey {
+
+
+    background-color: rgb(0, 0, 0);
+}
+
+div span:nth-child(1) {
+
+    top: -25px;
+    
+}
+
+div:first-child span:nth-child(2) {
+
+    left: 25.3em;
+    top: 1.3em;
+
+}
+
+div:last-child span:nth-child(3) {
+
+    right: 25.4em;
+    top: 1.4em;
+
+}
+
+div span:nth-child(4) {
+
+    top: 4.2em;
+    
+}
+
+.brown:hover {
+
+    background-color: red;
+
+}
+
+.grey:hover {
+
+    background-color: red;
+
+}
