@@ -1,0 +1,570 @@
+body {
+    
+    margin: 0;
+    background-color: rgb(235, 231, 231);
+    width: 100%;
+
+}
+
+p {
+
+    font-family: 'Amazon Ember', sans-serif
+    
+}
+
+.logo {
+
+    height: 70px;
+    background-color: #131921;
+    width: 100%;
+    margin-top:0 ;
+
+}
+
+.logo img {
+
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.sub-belt {
+
+    display: flex;
+    background-color: hsl(207, 46%, 22%);
+    height: 44px;
+    width: 100%
+
+}
+
+.sub-belt ion-icon {
+
+    font-size: 2em;
+    color: white;
+    padding-left: 1em;
+    padding-top: 0.1em;  
+
+}
+
+.sub-belt p {
+
+    font-family: 'Amazon Ember', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    padding-left: 0.4em;
+    margin: 0;
+    padding-top: 0.4em;
+
+}
+
+.offers p {
+
+    padding-left: 1.5em;
+
+}
+
+.amazon-basics p {
+
+    padding-left: 1.5em;
+
+}
+
+.buoni-regalo p {
+
+    padding-left: 1.5em;
+
+}
+
+.buy-again p {
+
+    padding-left: 1.5em;
+
+}
+
+a:link { 
+
+    text-decoration: none; 
+
+}
+
+.orange-bar {
+
+    display: flex;
+    margin-top: 2em;
+    background-color: rgb(255, 106, 0);
+    height: 44px;
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+
+}
+
+
+.orange-bar p {
+
+    margin: auto;
+    color: white;
+    font-family: 'Amazon Ember', sans-serif;
+    font-size: 1.1em;
+
+}
+
+#verde {
+
+    margin-top: 2em;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+#verde img {
+
+    width: 90%;
+    margin-bottom: 0;
+
+}
+
+.first-block-green h1 {
+
+    position: absolute;
+    top: 20%;
+    left: 42%;
+
+}
+
+.first-block-green p {
+
+    color: black;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    color: white;
+    font-weight: bold;
+
+}
+
+#container {
+
+    margin: auto;
+    width: 90%;
+    height: 25em;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2em;
+    position: relative;
+
+}
+
+.top-left p {
+
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    font-size: 1.5em;
+
+}
+
+.shop {
+
+    padding-left: 1em;
+    font-size: 0.5;
+
+}
+
+.prodotti {
+
+    display: flex;
+    justify-content: space-around;
+    padding-right: 2em;
+    padding-top: 0.5em;
+
+}
+
+.prodotti img {
+
+    height: 300px;
+    width: 300px;
+    border-radius: 15px 15px 15px 15px;
+
+}
+
+.visore {
+
+    margin-top: 2em;
+    margin-top: 2em;
+
+}
+
+.visore img {
+
+    text-align: center;
+    width: 100%;
+    position: relative;
+
+}
+
+.visore p {
+
+    text-align: center;
+    margin-top: 0em;
+    
+}
+
+.visore-testo {
+
+    padding-left: 1em;
+    font-size: 0.5;
+}
+
+.cuffie {
+
+    margin-top: 2em;
+
+}
+
+.cuffie img {
+
+    text-align: center;
+    width: 100%;
+    position: relative;
+
+}
+
+.cuffie p {
+
+    text-align: center;
+    margin-top: 0em;
+    
+}
+
+.cuffie-testo {
+
+    padding-left: 1em;
+    font-size: 0.5;
+
+}
+
+.final-belt {
+
+    background-color: hsl(207, 46%, 22%);
+    height: 44px;
+    width: 100%;
+     
+}
+
+
+.final-belt p {
+
+    text-align: center;
+    padding-top: 1em;
+    color: white;
+    width: 100%
+
+}
+
+.final-sub-belt {
+
+    background-color:hsl(207, 55%, 8%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+
+}
+
+.final-sub-belt img {
+
+    width: 200px;
+    height: 80px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
+.blocco {
+
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.prodotto {
+
+    width: 310px;
+    height: 400px;
+    background-color: white;
+    font-family: 'Amazon Ember', sans-serif;
+    margin-top: 3em;
+    
+}
+
+.blocco h2 {
+
+    font-size: 1.2em;
+    padding-left: 1em;
+
+}
+
+.gruppo-quattro-immagini {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.immagine img {
+
+    width: 140px;
+    height: 100px;
+    padding-top: 1em;
+
+}
+
+.caption {
+
+    padding-left: 1.5em;
+
+}
+
+
+.see-more {
+
+    padding-left: 1em;  
+    padding-top: 2.5em; 
+
+}
+
+.see-more a {
+
+    color: rgb(0, 162, 255);
+}
+
+.fix-bar {
+
+    position: fixed; 
+    left: 0; 
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+
+}
+
+.button1 {
+
+    z-index: 9888;
+    position: absolute;
+    top: 23em;
+    left: 5.5em;
+    width: 200px;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    background-color: rgb(41, 200, 248);
+    cursor: pointer;
+
+}
+
+.cart {
+
+    position: absolute;
+    top: 0.3em;
+    left:1em;
+    font-size: 2em;
+    color: white;
+    
+}
+
+.button1 p {
+
+    position: relative;
+    font-size: 1.3em;
+    bottom: 0.4em;
+    left: 1em;
+    color: white;
+
+}
+
+.button2 {
+
+    z-index: 9888;
+    position: absolute;
+    top: 23em;
+    left: 29em;
+    width: 200px;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    background-color: rgb(41, 200, 248);
+    cursor: pointer;
+
+}
+
+.cart {
+
+    position: absolute;
+    top: 0.3em;
+    left:1em;
+    font-size: 2em;
+    color: white;
+    
+}
+
+.button2 p {
+
+    position: relative;
+    font-size: 1.3em;
+    bottom: 0.4em;
+    left: 1em;
+    color: white;
+
+}
+
+.button3 {
+
+    z-index: 9888;
+    position: absolute;
+    top: 23em;
+    left: 52em;
+    width: 200px;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    background-color: rgb(41, 200, 248);
+    cursor: pointer;
+
+}
+
+.cart {
+
+    position: absolute;
+    top: 0.3em;
+    left:1em;
+    font-size: 2em;
+    color: white;
+    
+}
+
+.button3 p {
+
+    position: relative;
+    font-size: 1.3em;
+    bottom: 0.4em;
+    left: 1em;
+    color: white;
+
+}
+
+.button4 {
+
+    z-index: 9888;
+    position: absolute;
+    top: 23em;
+    left: 75.5em;
+    width: 200px;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    background-color: rgb(41, 200, 248);
+    cursor: pointer;
+
+}
+
+.cart {
+
+    position: absolute;
+    top: 0.3em;
+    left:1em;
+    font-size: 2em;
+    color: white;
+    
+}
+
+.button4 p {
+
+    position: relative;
+    font-size: 1.3em;
+    bottom: 0.4em;
+    left: 1em;
+    color: white;
+
+}
+
+.cuore1 {
+
+    position: absolute;
+    font-size: 2em;
+    left: 8.5em;
+    top: 2.6em;
+
+}
+
+.cuore2 {
+
+    position: absolute;
+    font-size: 2em;
+    left: 18.3em;
+    top: 2.6em;
+
+}
+
+.cuore3 {
+
+    position: absolute;
+    font-size: 2em;
+    left: 28em;
+    top: 2.6em;
+
+}
+
+.cuore4 {
+
+    position: absolute;
+    font-size: 2em;
+    left: 37.8em;
+    top: 2.6em;
+
+}
+
+.cuore1 ion-icon {
+
+    color: white;
+
+}
+
+.cuore2 ion-icon {
+
+    color: white;
+
+}
+
+.cuore3 ion-icon {
+
+    color: white;
+
+}
+
+.cuore4 ion-icon {
+
+    color: white;
+
+}
+
+.bottoni {
+
+    opacity: 0;
+    transition: opacity 0.5s linear 0s;
+
+}
+
+.prodotti:hover .bottoni {
+
+    opacity: 1;
+
+}
