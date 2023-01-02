@@ -1,0 +1,586 @@
+body {
+
+    font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #E7EAE9;
+    position: relative;
+    width: 100%;
+
+}   
+
+.nav-bar{
+
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top:0;
+    z-index: 10;
+
+}
+
+.nav-bar img {
+
+    height: 100%;
+    margin-left: 8em;
+    margin-right: 3em;
+    
+}
+
+.main-menu {
+
+    color: white;
+    display: flex;
+    margin-left: 3em;
+
+}
+
+.button {
+
+    border-bottom: solid;
+    background-color: black;
+    border-width: 4px;
+    display: flex;
+    height: 94%;
+    width: 140px;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    font-size: 20px;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.button a {
+
+    color: white;   
+    cursor: pointer;
+    font-size: 19px;
+    margin: auto;
+
+}
+
+.button a:hover ion-icon {
+
+    transform: rotate(180deg);
+
+}
+
+.button:hover {
+
+    border-bottom-color: #86BC23;
+
+}
+
+.searchbox {
+
+    height: 40px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+
+}
+
+input {
+
+    width: inherit; 
+    height: inherit; 
+    background-color: #4B4B4A;
+    border: none;
+    padding-top: 0.2em;
+    caret-color: transparent;  /* cursore testo trasparente*/
+
+}
+
+input::placeholder {
+
+    color: white;
+    font-size: 18px;
+    padding-left: 0.3em;
+
+}
+
+.searchbox button {
+
+    width: inherit; 
+    height: inherit;
+    background-color: #4B4B4A;
+    border: none;
+
+}
+
+button ion-icon {
+
+    font-size: 18px;
+    padding-left: 0.5em;
+    color: white;
+    border: none;
+
+}
+
+.world {
+
+    width: 81px;
+    height: 60px;
+    color: white;
+    position: absolute;
+    align-self: center;
+    right: 10.5em;
+    display: flex;
+}
+
+.world ion-icon{
+
+    align-self: center;
+    font-size: 25px;
+    padding-right:0.2em;
+    color: white;
+
+}
+
+.world p {
+
+    padding-top: 2em;
+    font-size: 12px;
+    color: white;
+
+}
+
+.world .freccia {
+
+    font-size: 18px;
+
+}
+
+.user {
+
+    width: 65px;
+    height: 60px;
+    border-left: solid;
+    color: rgba(255, 255, 255, 0.335);
+    border-width: 0.5px;
+    position: absolute;
+    align-self: center;
+    right: 6.3em;
+    align-self: center;
+
+}
+
+.user ion-icon {
+
+    font-size: 30px;
+    color: white;
+    margin-left: 0.2em;
+    margin-top: 0.5em;
+
+}
+
+.main-image {
+
+    margin-top: 4em;
+
+}
+
+.main-image img {
+
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+.black-box {
+
+    border-color: none;
+    height: 368px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left: 8em;
+    background-color: rgba(0, 0, 0, 0.383);
+
+}
+
+.black-box-text {
+
+    color: white;
+    margin-top: 7em;
+    margin-left: 3em;
+    font-size: 18px;
+
+}
+
+.black-box-text h2, p, .download-report, .foundation {
+
+    color: white;
+
+}
+
+.black-box-text button{
+
+    width: 85%;
+    height: 60px;
+    border: none;
+    font-size: 18px;
+    margin-top: 0.5em;
+    color: white;
+    background-color: #86BC23;
+}
+
+#main-section {
+
+    border-color: none;
+    height: 880px;
+    width: 780px;
+    margin-left: 8em;
+    margin-top: 2em;
+    display: flex;
+
+}
+
+.one-box-content {
+
+    border-color: none;
+    height: 290px;
+    width: 380px;
+    background-color: white;
+
+}
+
+.one-box-content img {
+
+    width: 100%;
+
+}
+
+.main-content {
+
+    margin-top: 0px;
+    height: 170px;
+    width: 370px;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    
+
+}
+
+.main-content h6, h2, p{
+
+    font-weight: 200;
+    color: black;
+    margin-top: 0;
+}
+
+.main-content h6, p {
+
+    color: grey;
+}
+
+.main-content h6 { 
+
+    margin-bottom: 1.5em;
+}
+
+
+.main-content span ion-icon {
+
+    font-size: 15px;
+
+}
+
+.vertical-box-container {
+
+    margin-right: 1em;
+
+}
+
+.black-rectangular {
+
+    width: 775px;
+    margin-left: 8em;
+    height:240px;
+    background-color: black;
+
+}
+
+.black-rectangular img {
+
+    height: 100%;
+    float: right;
+    width: 245px;
+
+}
+
+.black-rectangular h6 {
+
+    color: grey;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 0.5em;
+    margin-top: 0em;
+
+}
+
+.black-rectangular h2 {
+
+    color: white;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+}
+
+.all-text {
+
+    margin-left: 1em;
+    padding-top: 1em;
+
+}
+
+.last-boxes {
+
+    margin-top: 1em;
+    margin-left: 8em;
+    height: 430px;
+    width: 54%;
+    display: flex;
+
+}
+
+.left-box h6 {
+
+    color: grey;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 0.5em;
+    margin-top: 0em;
+
+}
+
+.left-box {
+
+    border-top-color: #0097A8;
+    border-top-style: solid;
+    border-top-width: 4px;
+    background-color: white;
+
+}
+
+.left-box span {
+
+    color: black;
+
+}
+
+.box-written {
+
+    padding: 1.2em;
+
+}
+
+/*voglio unificare i selettori .right-box e .left-box ma non riesco*/
+
+.right-box {
+
+    border-top-color: #0097A8;
+    border-top-width: 4px;
+    background-color: white;;
+    margin-left: 1.5em;
+    width: 50%;
+    
+}
+
+.right-box h6 {
+
+    color: grey;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 0.5em;
+    margin-top: 0em;
+
+}
+
+.right-box {
+
+    border-top-color: #0097A8;
+    border-top-style: solid;
+    border-top-width: 4px;
+    background-color: white;
+    position: relative;
+
+}
+
+.right-box span {
+
+    color: black;
+
+}
+
+hr {
+
+    border-top: 4px solid  #0097A8;
+    width: 99.5%;   /* è l'unico modo che ho trovato per fare la linea lunga quanto tutto il box*/
+    position: absolute;
+    left: 0;
+    top: 11.5em;
+
+}
+
+.last-column {
+
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 380px;
+    float: right;
+    position: absolute;
+    top: 29.5em;
+    right: 8.5em;
+    height: 81.4%;
+
+}
+
+.vertical-box-container1 {
+
+   height: 232%;
+   min-width: 360px;
+   justify-content: center;
+
+}
+
+.black-topper {
+
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    display: flex;
+
+}
+
+.black-topper span {
+
+    color: white;
+    font-size: 25px;
+    margin-left: 1em;
+
+}
+
+.numbered-box {
+
+    border-bottom:solid;
+    border-width: 2px;
+    border-color: rgba(128, 128, 128, 0.318);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 393px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+}
+
+.numbered-box:hover, .numbered-box:hover button {
+
+    background-color: rgb(238, 238, 238);
+
+}
+
+
+
+.numbered-box button {
+
+    /*questo button mi si schiaccia e non riesco a farlo tondo */
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border:solid;
+    font-size: 15px;
+    margin-left: 1em;
+    border-color: grey;
+    background-color: white;
+
+}
+
+.numbered-box div {
+
+    padding-left: 1em;
+    margin-right: 0.3em;
+
+}
+
+.numbered-box div :nth-child(1) {
+
+    color: black;
+    margin-bottom: 0;
+
+}
+
+.numbered-box div :nth-child(2) {
+
+    color:#BBBCBC;
+    font-size: 13px;
+
+}
+
+.contacts {
+
+    margin-top: 1em;
+
+}
+
+.black-bar-contacts {
+
+    height: 50px;
+    background-color:#2B2B2B ;
+    display: flex;
+
+}
+
+.contattaci {
+
+    border-right: solid;
+    border-width: 1px;
+    height: 35px;
+    width: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.contattaci p {
+
+    margin-top: 8px;
+    font-size: 17px;
+    color: #BBBCBC;
+    margin-left: 7.5em;
+
+}
+
+.work-with-us {
+
+    border-right: solid;
+    border-width: 1px;
+    height: 35px;
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+
+.work-with-us p {
+
+    margin-top: 8px;
+    font-size: 17px;
+    color: #BBBCBC;
+    margin-left: 2em;
+
+}
+
